@@ -17,7 +17,7 @@ int main() {
         } else if (g < num) {
             std::cout << "Too low! Try again.\n";
         }
-    } while (g !- num);
+    } while (g != num);
 
     std::cout << "Congratulation! You guessed the number.\n;"
     getch();
